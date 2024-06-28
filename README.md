@@ -1065,7 +1065,7 @@ The png file is than saved to the folder in the working directory under the name
 
   
 
-The RDP line simplification algorithm is used to simplify the lines of the payoff set,  maintaining the shape of the polytope that defines it. An inherent issue of the algorithm is an ever increasing number of points, which in return increases computation time, especially in later iterations. Enabling this simplification technique, points that fall short of a user-defined threshold are eliminated, and the shape of the polytope is preserved. For maximum precision, we recommend a threshold of 0.00001, though it can be adjusted to meet the s precision requirements.
+The RDP line simplification algorithm is used to simplify the lines of the payoff set,  maintaining the shape of the polytope that defines it. An inherent issue of the algorithm is an ever increasing number of points, which in return increases computation time, especially in later iterations. Enabling this simplification technique, points that fall short of a user-defined threshold are eliminated, and the shape of the polytope is preserved. For maximum precision, we recommend a threshold of 0.00001, though it can be adjusted to meet the users precision requirements.
 
   
 
