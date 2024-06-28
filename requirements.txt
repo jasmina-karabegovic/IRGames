@@ -1,0 +1,9 @@
+numpy==1.24.0
+matplotlib==3.5.1
+openpyxl==3.0.10
+sympy==1.12
+shapley==1.0.3
+nashpy==0.0.32
+scipy==1.8.0
+pycddlib==2.1.4
+rdp==0.8
