@@ -925,7 +925,7 @@ Thus, the output is saved in text format. If enabled, the half-space representat
 
   
 
-Allows to continue refining the set from a selected (previously completed) round n. The half-space representation of each iteration is automatically saved to  `Output_halfspaces`, such that the output is used as input in future iterations if the set is iterated from a round n. This can be adjusted using the following command:
+Allows to continue refining the set from a selected (previously completed) round n. The half-space representation of each iteration is automatically saved to  `Output_halfspaces` (if `output_vertices` is enabled) such that the output is used as input in future iterations if the set is iterated from a round n. This can be adjusted using the following command:
 
   
 
