@@ -631,7 +631,7 @@ base_game = np.array(base_game)
 
 new_minmax = np.array([[-1,0],
                       [0, -1]])
-new_minmax_1 = np.array([minmax_1,minmax_2])   #including the minmax payoffs in the H representaion
+new_minmax_1 = np.array([-minmax_1,-minmax_2])   #including the minmax payoffs in the H representaion
 
 A,b = compute_polytope_halfspaces(base_game)
 
